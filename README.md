@@ -1,4 +1,5 @@
 # Please read the following before trying to run this project locally.
+### The username and password for this web app is jbond007@gold.ac.uk
 
 This app does not having dependencies install so to run this project locally you will need to install the dependencies.
 This can be code using the following command in the terminal:
