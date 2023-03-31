@@ -1,0 +1,135 @@
+/* Styles for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.badge-match {
+    background-color: yellow;
+    padding: 4px 8px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.content{
+    font-size: 1.3rem;
+}
+
+.badge-unmatch {
+    background-color: grey;
+    padding: 4px 8px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+td {
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styles for the  button */
+.button-next-job, .button-apply-now {
+    text-align: center;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    justify-content: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin: 0 auto 5px;
+
+
+}
+
+/* Styles for the mobile layout */
+@media screen and (max-width: 600px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1):before {
+        content: "Company:";
+    }
+
+    td:nth-of-type(2):before {
+        content: "Job:";
+    }
+}
+
+.modal {
+    font-size: 12px;
+}
+.modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
