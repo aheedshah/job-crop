@@ -1,3 +1,20 @@
+# Please read the following before trying to run this project locally.
+
+This app does not having dependencies install so to run this project locally you will need to install the dependencies.
+This can be code using the following command in the terminal:
+
+`npm install`
+
+This downloads all the dependencies needed to run the project locally. Once this is done you can run the project locally using the following command:
+
+`npm start`
+
+I have also attached a video of how this can be done using Github in the project submission. The video includes details 
+on how to run the project locally and what the project looks like when it is run. All components are shown working as 
+expected in the video.
+
+Below is the original README.md file that was provided with the project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
